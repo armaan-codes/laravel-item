@@ -76,4 +76,11 @@ class HomeController extends Controller
 
         return view('backend.pages.dashboard.index', compact('entry_types', 'entry_count', 'posting_dates', 'post_count', 'item_categories', 'categories_count', 'item_locations', 'location_count', 'items'));
     }
+
+    public function configuration()
+    {
+
+        return view('backend.pages.configuration.index');
+
+    }
 }

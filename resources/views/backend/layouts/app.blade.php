@@ -29,6 +29,9 @@
 	<link href="{{ asset('css/adminlte-skins.min.css') }}" rel="stylesheet">
 
 	<!-- Custom Styles -->
+	<link href="{{ asset('css/bootstrap-slider.css') }}" rel="stylesheet">
+
+	<!-- Custom Styles -->
 	<link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
 	<!-- jQuery -->
@@ -42,6 +45,9 @@
 
 	<!-- AdminLTE -->
 	<script src="{{ asset('js/chart.min.js') }}"></script>
+
+	<!-- AdminLTE -->
+	<script src="{{ asset('js/bootstrap-slider.js') }}"></script>
 
 </head>
 

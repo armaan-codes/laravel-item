@@ -1,7 +1,7 @@
 <header class="main-header">
 	
 	<!-- Logo -->
-	<a href="{{ route('home') }}" class="logo">
+	<a href="{{ route('/') }}" class="logo">
 	
 		<!-- mini logo for sidebar mini 50x50 pixels -->
 		<span class="logo-mini"><b>A</b>LT</span>

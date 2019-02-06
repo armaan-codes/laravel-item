@@ -54,9 +54,9 @@
 
 			<li class="active">
 
-				<a href="#">
+				<a href="{{ route('home') }}">
 
-					<i class="fa fa-link"></i> <span>Link</span>
+					<i class="fa fa-link"></i> <span>Dashboard</span>
 
 				</a>
 
@@ -64,44 +64,12 @@
 			
 			<li>
 
-				<a href="#">
+				<a href="{{ route('configuration') }}">
 
-					<i class="fa fa-link"></i> <span>Another Link</span>
+					<i class="fa fa-link"></i> <span>Configuration</span>
 
 				</a>
 
-			</li>
-			
-			<li class="treeview">
-			
-				<a href="#">
-
-					<i class="fa fa-link"></i> <span>Multilevel</span>
-			
-					<span class="pull-right-container">
-					
-						<i class="fa fa-angle-left pull-right"></i>
-					
-					</span>
-			
-				</a>
-			
-				<ul class="treeview-menu">
-					
-					<li>
-
-						<a href="#">Link in level 2</a>
-
-					</li>
-			
-					<li>
-
-						<a href="#">Link in level 2</a>
-
-					</li>
-				
-				</ul>
-			
 			</li>
 
 		</ul>
